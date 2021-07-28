@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 35px;
+}
+
+header,
+nav {
+  background-color: #264653 !important;
+}
+.bannerContent .para {
+  color: #e0e0e0;
+}
+.bannerContent h1 {
+  font-size: 46px;
+  line-height: 14px;
+  font-weight: 700;
+}
+.navbar-white {
+  color: white;
+}
+.banner button {
+  background: #e76f51;
+}
+.image {
+  width: 500px;
+}
+.bikeImage {
+  width: 300px;
+}
+/* Feature Bikes Section  */
+.sectionHeader {
+  text-align: center;
+}
+.sectionHeader .colorDesign {
+  color: #e76f51;
+}
+.sectionHeader h1 {
+  font-size: 45px;
+  font-weight: 600;
+}
+.sectionHeader p {
+  color: #e76f51;
+  font-size: 15px;
+  font-weight: 600;
+}
+.icon i {
+  color: #e76f51;
+}
+
+.filterImage {
+  filter: grayscale(100%);
+}
+/* Clients Section  */
+.card-image {
+  width: 150px;
+}
+.complexImage img {
+  border-radius: 50%;
+  height: 150px;
+}
+.card-text {
+  color: #6c6c6c;
+}
+.card-body p {
+  font-weight: 600;
+}
+/* Question Section  */
+.faqImage {
+  width: 425px;
+}
+
+@media only screen and (max-width: 576px) {
+  .image {
+    width: 300px !important;
+  }
+  .image img {
+    width: 100%;
+  }
+  .faqImage {
+    width: 300px;
+  }
+  .faqImage img {
+    width: 100%;
+  }
+}
