@@ -1,3 +1,6 @@
+/* google Font  */
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lobster&family=Playfair+Display&family=Poppins:wght@700&family=Roboto:wght@700&display=swap");
+
 body {
   margin: 0;
   padding: 0;
@@ -10,12 +13,20 @@ h4,
 h5,
 h6 {
   font-size: 35px;
+  font-family: "Poppins", sans-serif;
 }
-
+p {
+  font-family: "Playfair Display", serif;
+}
+/*------------- Header Css  */
 header,
 nav {
   background-color: #264653 !important;
 }
+.navbar-white {
+  color: white;
+}
+/*----------------- Banner Css  */
 .bannerContent .para {
   color: #e0e0e0;
 }
@@ -24,19 +35,17 @@ nav {
   line-height: 14px;
   font-weight: 700;
 }
-.navbar-white {
-  color: white;
-}
 .banner button {
   background: #e76f51;
 }
+/* --------------Banner Image  */
 .image {
   width: 500px;
 }
 .bikeImage {
   width: 300px;
 }
-/* Feature Bikes Section  */
+/* ------------------Feature Bikes Section  */
 .sectionHeader {
   text-align: center;
 }
@@ -55,11 +64,10 @@ nav {
 .icon i {
   color: #e76f51;
 }
-
 .filterImage {
   filter: grayscale(100%);
 }
-/* Clients Section  */
+/*------------------------- Clients Section  */
 .card-image {
   width: 150px;
 }
@@ -73,12 +81,15 @@ nav {
 .card-body p {
   font-weight: 600;
 }
-/* Question Section  */
+/*-------------------------Question Section  */
 .faqImage {
   width: 425px;
 }
 
 @media only screen and (max-width: 576px) {
+  .bannerContent h1 {
+    font-size: 30px;
+  }
   .image {
     width: 300px !important;
   }
@@ -89,6 +100,12 @@ nav {
     width: 300px;
   }
   .faqImage img {
+    width: 100%;
+  }
+  .map {
+    width: 300px;
+  }
+  .map iframe {
     width: 100%;
   }
 }

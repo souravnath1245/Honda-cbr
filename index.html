@@ -23,10 +23,22 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <!-- ------------------------------- ------ Header Start  -->
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light">
+      <!-- -------------------------------------Navbar Start  -->
+      <nav class="navbar navbar-expand-lg fixed-top navbar-light">
         <div class="container">
-          <a class="navbar-brand text-light" href="#">Navbar</a>
+          <a
+            class="
+              navbar-brand
+              text-uppercase
+              fst-italic
+              text-light
+              fw-bolder fw-lighter
+            "
+            href="#"
+            >Honda</a
+          >
           <button
             class="navbar-toggler"
             type="button"
@@ -38,39 +50,40 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNavAltMarkup"
+          >
             <div class="navbar-nav">
               <a class="nav-link text-light active" aria-current="page" href="#"
                 >Home</a
               >
-              <a class="nav-link text-light" href="#">Features</a>
-              <a class="nav-link text-light" href="#">Pricing</a>
-              <a
-                class="nav-link disabled"
-                href="#"
-                tabindex="-1"
-                aria-disabled="true"
-                >Disabled</a
+              <a class="nav-link text-light" href="#bikeFeature">Features</a>
+              <a class="nav-link text-light" href="#clients">Clients</a>
+              <a class="nav-link text-light" href="#question">FAQ</a>
+              <a class="nav-link text-light" href="#reviews"
+                >Customer Reviews</a
               >
+              <a class="nav-link text-light" href="#contact">Contact</a>
             </div>
           </div>
         </div>
       </nav>
-      <!-- banner Start  -->
-      <div class="banner container">
-        <div class="row p-3 justify-content-between align-items-center">
+      <!----------------------------------------Navbar End  -->
+      <!----------------------------------------banner Start  -->
+      <div class="container">
+        <div class="row banner py-5 justify-content-between align-items-center">
           <div class="col-lg-6 col-sm-12 col-xs-12 mb-5">
-            <div class="bannerContent">
+            <div class="bannerContent py-3">
               <p class="para">
                 Computer-controlled digital transistorized with electronic
                 advance
               </p>
               <h1 class="text-white mb-5">Honda CBR 300R</h1>
               <p class="para">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta,
-                veniam?Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Dicta, veniam?Lorem ipsum dolor sit, amet consectetur
-                adipisicing elit. Dicta, veniam?
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+                Exercitation veniam consequat sunt nostrud amet.
               </p>
               <!-- Button trigger modal -->
               <button
@@ -94,7 +107,7 @@
                   <div class="modal-content">
                     <div class="modal-header">
                       <h5 class="modal-title" id="exampleModalLabel">
-                        Modal title
+                        Bangladesh Honda Private Limited
                       </h5>
                       <button
                         type="button"
@@ -103,7 +116,14 @@
                         aria-label="Close"
                       ></button>
                     </div>
-                    <div class="modal-body">...</div>
+                    <div class="modal-body">
+                      Honda was the first Japanese automobile manufacturer to
+                      release a dedicated luxury brand, Acura, in 1986. Aside
+                      from their core automobile and motorcycle businesses,
+                      Honda also manufactures garden equipment, marine engines,
+                      personal watercraft and power generators, and other
+                      products.
+                    </div>
                     <div class="modal-footer">
                       <button
                         type="button"
@@ -121,7 +141,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-6 ">
+          <div class="col-lg-6">
             <div class="image">
               <img
                 class="image-fluid"
@@ -132,9 +152,13 @@
           </div>
         </div>
       </div>
+      <!-----------------------------------------banner End  -->
     </header>
+    <!------------------------------------------ Header End  -->
+    <!------------------------------------------ Main Start -->
     <main>
-      <section class="container bikeFeature mb-5">
+      <!-----------------------------------------Feature Section Start  -->
+      <section id="bikeFeature" class="container bikeFeature mb-5">
         <div class="sectionHeader mx-auto my-5">
           <h1 class="text-capitalize">
             Fetured <span class="colorDesign">Bikes 2021</span>
@@ -164,8 +188,9 @@
           </div>
         </div>
       </section>
-      <section class="container latestNews my-5"></section>
-      <section class="container clients">
+      <!-----------------------------------------Feature Section End  -->
+      <!-----------------------------------------Clients Section Start  -->
+      <section id="clients" class="container clients">
         <div class="sectionHeader mx-auto my-5">
           <h1 class="text-capitalize">
             Happy <span class="colorDesign">Clients says</span>
@@ -240,7 +265,9 @@
           </div>
         </div>
       </section>
-      <section class="container question">
+      <!-----------------------------------------Clients Section End  -->
+      <!-----------------------------------------Question Section Start  -->
+      <section id="question" class="container question">
         <div class="sectionHeader mx-auto my-5">
           <h1 class="text-capitalize">
             Frequently <span class="colorDesign">Asked questions</span>
@@ -327,7 +354,7 @@
                     aria-expanded="false"
                     aria-controls="panelsStayOpen-collapseFour"
                   >
-                    How can I tell if my helmet is old and I need a new one?
+                    My bike has been in storage is it safe to ride?
                   </button>
                 </h2>
                 <div
@@ -358,7 +385,7 @@
                     aria-expanded="false"
                     aria-controls="panelsStayOpen-collapseThree"
                   >
-                    How can I tell if my helmet is old and I need a new one?
+                    What rules should I follow when riding my bike?
                   </button>
                 </h2>
                 <div
@@ -381,7 +408,193 @@
           </div>
         </div>
       </section>
+      <!-----------------------------------------Question Section End  -->
+      <!-----------------------------------------Contact Section Start  -->
+      <section id="reviews" class="container reviews">
+        <div class="sectionHeader mx-auto">
+          <h1 class="text-capitalize">
+            Consumer <span class="colorDesign">reviews</span>
+          </h1>
+          <p class="para">
+            Read what other owners think about the 2021 Honda Pilot.
+          </p>
+        </div>
+
+        <div class="row py-5 my-5 justify-content-center align-content-center">
+          <div class="col-lg-2 col-sm-12">
+            <div class="row ps-sm-3 ps-3">
+              <h1>4.0</h1>
+              <div class="icon">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i
+                ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                ><i class="far fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-10 col-sm-12">
+            <ol type="1">
+              <li class="reviewsLink icon">
+                <i class="fas fa-star"></i>
+                <div class="progress">
+                  <div
+                    class="progress-bar bg-warning"
+                    role="progressbar"
+                    style="width: 20%"
+                    aria-valuenow="0"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    20%
+                  </div>
+                </div>
+              </li>
+              <li class="reviewsLink icon">
+                <i class="fas fa-star"></i>
+                <div class="progress">
+                  <div
+                    class="progress-bar bg-info"
+                    role="progressbar"
+                    style="width: 40%"
+                    aria-valuenow="40"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    40%
+                  </div>
+                </div>
+              </li>
+              <li class="reviewsLink icon">
+                <i class="fas fa-star"></i>
+                <div class="progress">
+                  <div
+                    class="progress-bar bg-primary"
+                    role="progressbar"
+                    style="width: 50%"
+                    aria-valuenow="50"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    50%
+                  </div>
+                </div>
+              </li>
+              <li class="reviewsLink icon">
+                <i class="fas fa-star"></i>
+                <div class="progress">
+                  <div
+                    class="progress-bar bg-danger"
+                    role="progressbar"
+                    style="width: 75%"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    75%
+                  </div>
+                </div>
+              </li>
+              <li class="reviewsLink icon">
+                <i class="far fa-star"></i>
+                <div class="progress">
+                  <div
+                    class="progress-bar bg-success"
+                    role="progressbar"
+                    style="width: 100%"
+                    aria-valuenow="100"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    100%
+                  </div>
+                </div>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </section>
+      <!-----------------------------------------Contact Section End  -->
+      <!-----------------------------------------Map Section Start  -->
+      <section id="contact" class="container map">
+        <div class="container">
+          <div class="sectionHeader mx-auto">
+            <h1 class="text-capitalize">
+              Get in <span class="colorDesign">Tuoch</span>
+            </h1>
+            <p class="para">
+              Please fill out the form on this section to contact with me. Or
+              call between 9:00 a.m. and 8:00 p.m. ET, Monday through Friday
+            </p>
+          </div>
+          <div class="row py-5">
+            <div class="col-lg-6 col-sm-12 mb-4">
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label fw-bold"
+                  >Name :</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                  placeholder="Enter Your Name"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label fw-bold"
+                  >Email Address :</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                  placeholder="name@example.com"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label fw-bold"
+                  >Password :</label
+                >
+                <input
+                  type="password"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                  placeholder="Your password"
+                />
+              </div>
+              <div class="mb-3">
+                <label
+                  for="exampleFormControlTextarea1"
+                  class="form-label fw-bold"
+                  >Your opinion :</label
+                >
+                <textarea
+                  class="form-control mb-5"
+                  id="exampleFormControlTextarea1"
+                  rows="3"
+                  placeholder="Enter Your Opinion"
+                ></textarea>
+                <button class="btn btn-danger text-uppercase">Send Me</button>
+              </div>
+            </div>
+            <div class="col-lg-6 col-sm-12 map">
+              <iframe
+                class="mx-auto"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d900.4089760396621!2d91.40010432048159!3d23.012104357609324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3753694dc92de479%3A0x888329aed655554b!2sChhagalnaiya%20CNG%20Station!5e0!3m2!1sen!2sbd!4v1627565890091!5m2!1sen!2sbd"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-----------------------------------------Map Section End  -->
     </main>
+    <!--------------------------------------------Main End  -->
+    <!--------------------------------------------Footer Start  -->
+
+    <!--------------------------------------------Footer End  -->
 
     <!-- Bootstrap Script Link  -->
     <script
